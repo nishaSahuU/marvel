@@ -193,37 +193,6 @@ section {
     background-color: var(--red);
 }
 
-/*-------animation Keyframes-----*/
-@keyframes zoomInOut {
-    0%, 100% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.1);
-    }
-}
-
-@keyframes spin01 {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes pageLoader {
-    0%, 100% {
-        transform: translateX(-50%);
-    }
-
-    50% {
-        transform: translateX(50%);
-    }
-}
-
 
 #page-loader {
     position: fixed;
@@ -236,20 +205,6 @@ section {
     transition: all 0.5s ease;
 }
 
-/* .page-loader.fade-out {
-    opacity: 0;
-}
-
-.page-loader::before {
-    content: '';
-    position: absolute;
-    height: 4px;
-    width: 100px;
-    background-color: var(--red);
-    left: calc(50% - 50px);
-    top: calc(50% - 2px);
-    animation: pageLoader 1s linear infinite;
-} */
 
 
 /* header*/

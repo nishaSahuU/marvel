@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 @import url('https://www.fontspace.com/marvel-font-f32182');
+
 /*-----------
 variables
 ---------------*/
@@ -16,7 +17,7 @@ variables
     --grey: #3e3f44;
     --white: #ffffff;
     --yellow: #f7d281;
-    --blue:#1b729f;
+    --blue: #1b729f;
     --shadow: 0 0 15px rgba(0, 0, 0, 0.25);
     --cursive-font: 'Dancing Script', cursive;
     scroll-behavior: smooth;
@@ -193,6 +194,37 @@ section {
     background-color: var(--red);
 }
 
+/*-------animation Keyframes-----*/
+@keyframes zoomInOut {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes spin01 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pageLoader {
+    0%, 100% {
+        transform: translateX(-50%);
+    }
+
+    50% {
+        transform: translateX(50%);
+    }
+}
+
 
 #page-loader {
     position: fixed;
@@ -200,12 +232,10 @@ section {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--white) url("img/loading.gif") no-repeat center center  ;
+    background-color: var(--white) url("img/loading.gif") no-repeat center center;
     z-index: 999;
     transition: all 0.5s ease;
 }
-
-
 
 /* header*/
 
@@ -237,11 +267,11 @@ section {
 }
 
 .header .logo {
-   
+
     display: flex;
     align-items: center;
     padding: 0 15px;
-    width:100px ;
+    width: 100px;
     height: 60px;
 }
 
@@ -363,7 +393,7 @@ section {
 .home-text h2 {
     font-family: sans-serif;
     color: var(--black);
-   font-size: 30px;
+    font-size: 30px;
     line-height: 75px;
     margin: 0 0 5px;
     font-style: italic;
@@ -398,8 +428,6 @@ section {
     text-align: center;
 }
 
-
-
 .home-text p {
     font-weight: 500;
     font-size: 20px;
@@ -424,6 +452,7 @@ section {
     text-transform: capitalize;
     margin: 0 0 15px;
 }
+
 .about-text h3 span {
     font-size: 30px;
     text-transform: capitalize;
@@ -448,7 +477,6 @@ section {
     justify-content: end;
 }
 
-
 .about-img .img-box h3 {
     position: absolute;
     color: var(--black);
@@ -465,16 +493,53 @@ section {
 
 }
 
-.story-section{
-    background-color: var(--black);
-    
+.story-section .row .left {
+    width: 45%;
 }
-.story-section img{
+
+.story-section .row .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.story-section .row .right {
+    width: 55%;
+}
+
+
+.story-section {
+    background-color: var(--black);
+
+}
+
+.story-section .img-box img {
+    width: 100%;
+}
+
+.story-section img {
     width: 50%;
 }
-.story-section p{
-  padding: 20px;
-    
+
+.story-section p {
+    padding: 20px;
+
+}
+
+.row .story-text .img-box {
+    float: right;
+    width: 30%;
+    height: 30%;
+    -webkit-shape-outside: url(super_heroes.png);
+    shape-outside: url(super_heroes.png);
+    -webkit-shape-margin: 1em;
+    shape-margin: 1em;
+
+}
+
+.row .story-img {
+    padding: 2rem;
 }
 
 
@@ -488,9 +553,10 @@ section {
     margin-bottom: 40px;
 }
 
-.section-title h2{
+.section-title h2 {
     color: var(--yellow);
 }
+
 .character-tabs {
     padding: 0 15px;
     width: 100%;
@@ -512,8 +578,12 @@ section {
     display: inline-block;
 }
 
+.character-tab-item:hover {
+    color: var(--yellow);
+}
+
 .character-tab-item.active {
-    color: var(--white);
+    color: var(--yellow);
 }
 
 .character-tab-content {
@@ -580,8 +650,9 @@ section {
     color: var(--white);
     padding: 30px;
 }
-.character-itemName h3{
-color: var(--blue);
+
+.character-itemName h3 {
+    color: var(--blue);
     padding-bottom: 30px;
 }
 
@@ -592,7 +663,7 @@ color: var(--blue);
 
 
 
-  
+
 
 @media (max-width: 767px) {
     .home-text h1 {
@@ -610,12 +681,9 @@ color: var(--blue);
         border-bottom: 2px dashed var(--black-light);
     }
 
-   
-
     .about-text h3 {
         font-size: 24px;
     }
 
-    
-}
 
+}

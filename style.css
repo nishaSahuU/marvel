@@ -490,7 +490,6 @@ section {
     font-family: var(--cursive-font);
     font-weight: bold;
     text-transform: capitalize;
-
 }
 
 .story-section .row .left {
@@ -511,7 +510,6 @@ section {
 
 .story-section {
     background-color: var(--black);
-
 }
 
 .story-section .img-box img {
@@ -524,7 +522,6 @@ section {
 
 .story-section p {
     padding: 20px;
-
 }
 
 .row .story-text .img-box {
@@ -535,13 +532,11 @@ section {
     shape-outside: url(super_heroes.png);
     -webkit-shape-margin: 1em;
     shape-margin: 1em;
-
 }
 
 .row .story-img {
     padding: 2rem;
 }
-
 
 /* character section */
 .character-section {
@@ -628,7 +623,6 @@ section {
 }
 
 .character-item-title h3 {
-
     font-size: 16px;
     text-transform: capitalize;
     transition: color 0.3s ease;
@@ -660,11 +654,6 @@ section {
     color: var(--white);
 }
 
-
-
-
-
-
 @media (max-width: 767px) {
     .home-text h1 {
         font-size: 50px;
@@ -684,6 +673,4 @@ section {
     .about-text h3 {
         font-size: 24px;
     }
-
-
 }

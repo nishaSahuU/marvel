@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <h3 align="center">Marvel</h3>
+    <h2 align="center">Marvel</h2>
 
   <p align="center">
     An awesome website for Marvel Fans!

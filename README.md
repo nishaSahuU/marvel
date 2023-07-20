@@ -1,5 +1,6 @@
 
-<!-- PROJECT LOGO -->
+[marvel](https://github.com/nishaSahuU/marvel/assets/82632229/9e261b6b-1cd2-4638-813c-c03261e0445b)
+
 <br />
 <div align="center">
     <h2 align="center">Marvel</h2>

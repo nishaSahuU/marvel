@@ -50,9 +50,16 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/your_username_/marvel.git
    ```
+3. Type
+   ```sh
+   cd
+   ```
+5. After cloning, simply edit the HTML and CSS files  in your favorite text editor to make changes. To preview the 
+   changes you make to the code, you can open the index.html file in your web browser.
+   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- 
+[Certificate](https://drive.google.com/file/d/1O6aMa55dUg-Gch9BU9vTH3az_1KTmywr/view?usp=sharing)
 
 
 

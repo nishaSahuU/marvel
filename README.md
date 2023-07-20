@@ -19,7 +19,6 @@ This website :
 * Designed under 6 hours from scratch.
 * Won under the category of "Best Girl Performer".
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -29,7 +28,7 @@ This website was built with
 * CSS
 * JavaScript
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## Features
 * A header section with the logo and navbar.

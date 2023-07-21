@@ -1,5 +1,5 @@
 <div align="center">
-    <h2 align="center">Marvel</h2>
+    <h1 align="center">Marvel</h1>
 
   <p align="center">
     An awesome website for Marvel Fans!
